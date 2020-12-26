@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDTwitterMoPubAdapter', },
-		frameworks = { 'MoPub', },
+		staticLibs = { },
+		frameworks = { },
 		frameworksOptional = {},
 	},
 }

@@ -1,7 +1,0 @@
-dependencies {
-    implementation("com.appodeal.ads.sdk.networks:mopub:2.10.1.4")
-}
-android.defaultConfig {
-    minSdkVersion Math.max(minSdkVersion?.apiLevel ?: 15, 19)
-}
-ext["minSdkVersion"] = Math.max(ext.find("minSdkVersion")?:15, 19)
